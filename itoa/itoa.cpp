@@ -49,6 +49,7 @@ int main()
     cout << myitoa(142100);
     cout << myitoa(10630);
     cout << myitoa(-102352530);
+    cout << myitoa(234232);
     
 
 }
