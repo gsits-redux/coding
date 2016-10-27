@@ -80,8 +80,10 @@ int inorder_traverse (NPTR root)
        rdepth = inorder_traverse(root->right);
     
     
-    if (ldepth > rdepth) return ldepth+1;
-    else return rdepth+1;
+    if (ldepth > rdepth) 
+        return ldepth+1;
+    else 
+        return rdepth+1;
         
 }
 
